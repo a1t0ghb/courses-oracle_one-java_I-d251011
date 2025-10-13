@@ -16,9 +16,12 @@ sudo apt --yes install openjdk-17-jdk
 #  2. Set ENVIRONMENT variable 'JAVA_HOME'. Act as a POITNER for any IDE or development tool to find JDK tools apps: 'java' (for running Java), 'javac' (for compiling Java), and 'jar' (for packaging Java jar files).
 #  - JAVA_HOME vs. PATH     : 'https://tomgregory.com/gradle/java-home-vs-path-environment-variables/'.
 #  - Format example         : 'https://www.r-bloggers.com/2024/11/linux-environment-variables-a-beginners-guide-to-printenv-set-export-and-alias/'.
-echo -e "\n-----\n[LOG] Setting environment variable 'JAVA_HOME'."
-export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
-export PATH="$PATH:$JAVA_HOME/bin"
+echo -e "\n-----\n[LOG] Setting environment variables: 'JAVA_HOME', and 'PATH'."
+# #  NOTE: definition of ENVIRONMENT VARIABLES using devcontainers is done in the 'devcontainer.json' file. Ref.: 'https://github.com/devcontainers/spec/issues/233#issuecomment-1530069229'.
+# export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+# export PATH="$PATH:$JAVA_HOME/bin"
+echo "JAVA_HOME: $JAVA_HOME"
+echo "PATH: $PATH"
 
 # #  3. [OPTIONAL | MANUAL] Validation of ENVIRONMENT variable creation: 'https://www.r-bloggers.com/2024/11/linux-environment-variables-a-beginners-guide-to-printenv-set-export-and-alias/'.
 # printenv | more
@@ -29,5 +32,4 @@ export PATH="$PATH:$JAVA_HOME/bin"
 echo -e "\n-----\n[LOG] Validating java installation."
 java --version
 javac --version
-
 # EOF.
