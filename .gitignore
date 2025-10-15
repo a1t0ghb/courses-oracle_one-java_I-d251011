@@ -36,7 +36,7 @@
 # COMPILED class file.
 *.class
 
-#  NOTE: enable / un-comment each one PROGRESSIVELY, as files and / or folders are generated.
+# #  NOTE: enable / un-comment each one PROGRESSIVELY, as files and / or folders are generated.
 # # Log file.
 # *.log
 # # BlueJ files.
