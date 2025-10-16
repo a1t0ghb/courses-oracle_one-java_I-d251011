@@ -60,8 +60,8 @@
 
 # #  SPECIFIC FILES.
 
-# #  Original screen recording, to reduce possibilities of doxing.
-# vid-readme_frontpage_gif-01_original_footage.mp4
+#  Original screen recording, to reduce possibilities of doxing.
+vid-readme_frontpage_gif-01_original_footage.mp4
 
 # Java compiled file ('.class') to understand basics of JVM.
 !HelloWorld.class
