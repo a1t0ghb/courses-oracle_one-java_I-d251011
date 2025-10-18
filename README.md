@@ -44,10 +44,12 @@ Image width for GitHub READMEs:
 -->
 <!-- <div align="center">
     <img src="./rsrcs/media/img-readme_frontpage_media.png" alt="README's front-page media." width="1200" />
+    <br />
     <figcaption></figcaption>
 </div>  -->
 <div align="center">
     <img src="./rsrcs/media/img-readme_frontpage_gif.gif" alt="README's front-page media." width="600" />
+    <br />
     <figcaption>Code execution in VS Code, of Java app in folder 'course_java_i_challenge_app_bank'.</figcaption>
 </div>
 
