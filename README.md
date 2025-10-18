@@ -43,10 +43,12 @@ Image width for GitHub READMEs:
 - 'https://gist.github.com/uupaa/f77d2bcf4dc7a294d109'.
 -->
 <!-- <div align="center">
-    <img src="./rsrcs/media/img-readme_frontpage_media.png" width="1200" />
-</div> -->
+    <img src="./rsrcs/media/img-readme_frontpage_media.png" alt="README's front-page media." width="1200" />
+    <figcaption></figcaption>
+</div>  -->
 <div align="center">
-    <img src="./rsrcs/media/img-readme_frontpage_gif.gif" width="600" />
+    <img src="./rsrcs/media/img-readme_frontpage_gif.gif" alt="README's front-page media." width="600" />
+    <figcaption>Code execution in VS Code, of Java app in folder 'course_java_i_challenge_app_bank'.</figcaption>
 </div>
 
 Final delivery of the 1st course: '[Java: creando tu primera aplicación](https://app.aluracursos.com/course/java-creando-primera-aplicacion)', from module (a.k.a. 'formación' in spanish) '[Java Orientado a Objetos G9 - ONE](https://app.aluracursos.com/formacion-java-grupo9-one)', of [Alura LATAM](https://www.aluracursos.com/). <b>Part of [ORACLE Next Education (ONE)](https://www.oracle.com/co/education/oracle-next-education/) education program, in LATAM</b>.
